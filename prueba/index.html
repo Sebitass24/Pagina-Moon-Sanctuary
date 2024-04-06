@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explora la Selva</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark d-flex justify-content-between">
+    <img class="logo" src="./Multimedia/Logo.png" alt="">
+    <a class="navbar-brand">Moon Sanctuary</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#nosotros">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#personajes">Personajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comic">Comic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#creadores">Creadores</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <div class="jumbotron  text-center">
+    <h1 id="bienvi">¡Bienvenidos a la Selva!</h1>
+    <p>Descubre la belleza y misterios de la selva con nosotros.</p>
+  </div>
+
+  <div class="container">
+    <h1 class="nosotros" id="nosotros">NOSOTROS</h1>
+
+    <div class="row cont-objetivos">
+      <div class="col-lg-6 border-right ">
+        <img class="obejtivo" src="./Multimedia/Objetivo.png" alt="">
+        <h2>objetivo</h2>
+        <p>Sumergete en la rica biodiversidad de la selva. Desde majestuosos arboles hasta exoticas criaturas, nuestra
+          selva te sorprendera en cada paso.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="experiencia" src="./Multimedia/Experiencia.png" alt="">
+        <h2>Experiencia</h2>
+        <p>Explora la selva con nuestros emocionantes tours y eventos. Desde caminatas guiadas hasta expediciones
+          nocturnas, tenemos algo para todos los aventureros.</p>
+      </div>
+    </div>
+
+    <div class="container-personajes" id="personajes">
+      <div class="mt-4">
+        <h2 class="personajesTitulo text-center">Personajes</h2>
+      </div>
+      <div class="row d-flex justify-content-center tercera">
+        <div class="col-lg-3">
+          <div class="cards">
+            <label for="btn-modal">
+              <h5 class="card-title ">Magnus</h5>
+              <img src="./Multimedia/Magnus.png" class="card-img-top" alt="Personaje 1">
+            </label>
+          </div>
+
+          <!--Ventana Del modal-->
+          <input type="checkbox" id="btn-modal">
+          <div class="container-modal">
+            <div class="content-modal">
+              <h5>Magnus</h5>
+              <p>
+                MAGNUS ES UN CHAMAN DE LA TRIBU GUARANI, QUE VIVE EN LOS MÁS PROFUNDO DE LA SELVA AMAZONICA. PORTA UN
+                COLLAR DE PODERES INDESCRIPTIBLES, HEREDADO DE FORMA DIRECTA POR LA DIOSA ARTEISA. SU DEBER ES
+                RESGUARDAR
+                EL TEMPLO QUE SE ENCUENTRA DETRÁS DE LAS CATARATAS Y SUS TESOROS SAGRADOS
+              </p>
+              <div class="btn-cerrar-modal">
+                <label for="btn-modal">Cerrar</label>
+              </div>
+            </div>
+          </div>
+          <!--Fin ventana modal-->
+        </div>
+
+        <div class="col-lg-3">
+          <div class="cards">
+            <label for="btn-modal-2">
+              <h5 class="card-title ">Lyra</h5>
+              <img src="./Multimedia/Lyra.png" class="card-img-top" alt="Personaje 2">
+            </label>
+          </div>
+
+          <!--Ventana Del modal-->
+          <input type="checkbox" id="btn-modal-2">
+          <div class="container-modal">
+            <div class="content-modal">
+              <h5>Lyra</h5>
+              <p>
+                LYRA ES LA ANTAGONISTA DE LA HISTORIA, UNA FIGURA ENIGMATICA QUE LLEGA A LA SELVA AMAZONICA CON MAGIA
+                OSCURA Y AMBICIONES DE APODERARSE DE LOS SECRETOS Y RIQUEZAS ANCESTRALES DE LA TRIBU. ESTA VILLANADA ES
+                ASTUTA, DESPIADADA Y ESTÁ DISPUESTA A ALCANZAR SUS OBJETIVOS.
+              </p>
+              <div class="btn-cerrar-modal">
+                <label for="btn-modal-2">Cerrar</label>
+              </div>
+            </div>
+          </div>
+          <!--Fin ventana modal-->
+        </div>
+
+        <div class="col-lg-3">
+          <div class="cards">
+            <label for="btn-modal-3">
+              <h5 class="card-title ">Artemisa</h5>
+              <img src="./Multimedia/Artemisa.png" class="card-img-top" alt="Personaje 3">
+            </label>
+          </div>
+
+          <!--Ventana Del modal-->
+          <input type="checkbox" id="btn-modal-3">
+          <div class="container-modal">
+            <div class="content-modal">
+              <h5>Artemisa</h5>
+              <p>ARTEMISA ES UNA PODERSA DIOSA QUE OTORGA A MAGNUS PROTECCION Y PODER DIVINI. ELLA ES LA GUARDIANA DE LA
+                NATURALEZA Y ESPIRITU DE LAS CATARATAS DEL IGUAZU. SU APARICION EN LAS HISTORIA TIENE COMO OBJETIVO
+                ADVERTIR A MAGNUS SOBRE LA AMENAZA QUE SE AVECINA.
+
+              </p>
+              <div class="btn-cerrar-modal">
+                <label for="btn-modal-3">Cerrar</label>
+              </div>
+            </div>
+          </div>
+          <!--Fin ventana modal-->
+        </div>
+
+        <div class="col-lg-3">
+          <div class="cards">
+            <label for="btn-modal-4">
+              <h5 class="card-title ">Aiden</h5>
+              <img src="./Multimedia/Aiden.png" class="card-img-top" alt="Personaje 4">
+            </label>
+          </div>
+
+          <!--Ventana Del modal-->
+          <input type="checkbox" id="btn-modal-4">
+          <div class="container-modal">
+            <div class="content-modal">
+              <h5>Aiden</h5>
+              <p>
+                AIDEN ES EL GUERRERO DEL AGUA, EL CUAL TIENE UNA PARTICIPACION EN LA HISTORIA QUE ES AYUDANDO A MAGNUS Y
+                A
+                LA DIOSA A LUCHAR CONTRA LOS PODERES OSCUROS DE LYRA, ESTE APARECE GRACIAS A UNA INVOCACION EN LAS
+                CATARATAS POR PARTE DEL CHAMAN.
+              </p>
+              <div class="btn-cerrar-modal">
+                <label for="btn-modal-4">Cerrar</label>
+              </div>
+            </div>
+          </div>
+          <!--Fin ventana modal-->
+        </div>
+      </div>
+
+    </div>
+
+    <div class="comic-container" id="comic">
+      <div class="comic-row">
+        <div class="comic-column">
+          <img class="antorchas" src="./Multimedia/Antorcha1.png" alt="">
+        </div>
+        <div class="comic-column">
+          <h2>Ingresa a nuestro comic</h2>
+          <img class="portada" src="/Multimedia/Portada.png" alt="">
+        </div>
+        <div class="comic-column">
+          <img class="antorchas" src="./Multimedia/Antorcha2.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div id="creadores" class="container">
+      <h1  style="text-align: center;">CREADORES</h1>
+
+      <div class="row quinta">
+        <div class="col-lg-6 border-right border-success">
+          <img class="anderson" src="./Multimedia/Anderson.png" alt="">
+          <h2>Anderson</h2>
+          <p>Estudiante de produccion multimedia con 18 aÑos Medellin,
+            joven y apasionado por el mundo de la creacion digital y audiovisual.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="sebastian" src="./Multimedia/Sebastian.png" alt="">
+          <h2>sebastian</h2>
+          <p> Estudiante de produccion multimedia de 18 aÑos con un inmenso potencial.
+            Su habilidad para combinar creatividad y tecnica,junto con su pasion por
+            contar historias, lo convierten en un creador prometedor.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center py-4  bg-dark text-white">
+      <div class="social-icons">
+        <a href="https://www.instagram.com/_sebastian_ochoa_" target="_blank" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/watch?v=fPyAklAUknM" target="_blank" class="fab fa-youtube"></a>
+
+      </div>
+      <p>&copy; 2024 Proyecto SENA</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./desplazamiento.js"></script>
+
+</body>
+
+</html>

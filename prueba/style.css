@@ -1,0 +1,290 @@
+* {
+  font-family: American Captain;
+  font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  background-color: #e8e8e8;
+}
+
+/*VENTANA MODAL*/
+#btn-modal {
+  display: none;
+
+}
+
+#btn-modal-2 {
+  display: none;
+
+}
+
+#btn-modal-3 {
+  display: none;
+
+}
+
+#btn-modal-4 {
+  display: none;
+
+}
+
+.container-modal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(144, 148, 150, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.content-modal {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #488621;
+  border-radius: 20px;
+}
+
+.content-modal h5 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+.container-modal p {
+  padding: 15px 0px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#btn-modal:checked~.container-modal {
+  display: flex;
+
+}
+
+#btn-modal-2:checked~.container-modal {
+  display: flex;
+
+}
+
+#btn-modal-3:checked~.container-modal {
+  display: flex;
+
+}
+
+#btn-modal-4:checked~.container-modal {
+  display: flex;
+}
+
+.content-modal .btn-cerrar-modal {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-modal .btn-cerrar-modal label {
+  padding: 7px 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.content-modal .btn-cerrar-modal label:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+/*FIN VENTANA MODAL*/
+
+
+.navbar-brand {
+  position: absolute;
+  font-size: 35px;
+  margin-left: 7%;
+}
+
+.jumbotron {
+  background-image: url(../Multimedia/Banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.jumbotron #bienvi {
+  font-size: 100px;
+  color: rgb(59, 59, 59);
+
+}
+
+.cards img {
+  height: 42vh;
+  cursor: pointer;
+  margin-left: 50%;
+}
+
+
+
+.cont-objetivos {
+  height: 25vh;
+}
+
+.nosotros {
+  text-align: center;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+  background-color: rgb(70, 70, 70);
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 5px;
+  font-size: 24px;
+}
+
+.border-right {
+  border-right: 5px solid #488621b9 !important;
+  max-height: 25vh;
+}
+
+.segunda {
+  background-color: white;
+}
+
+.tercera {
+  height: 35vh;
+}
+
+.cuarta {
+  background-color: white;
+}
+
+.quinta img {
+  background-color: #CDD45D;
+}
+
+.quinta {
+  margin-bottom: 20%;
+}
+
+.logo {
+  width: 5rem;
+}
+
+
+
+.comic-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  margin-top: 30%;
+}
+
+.antorchas {
+  height: 40vh;
+}
+
+
+
+.comic-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comic-column {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.portada {
+  width: 100%;
+  padding: 100px;
+}
+
+
+.obejtivo {
+  width: 5rem;
+}
+
+.experiencia {
+  width: 5rem;
+}
+
+.anderson {
+  width: 10rem;
+  background-color: white;
+  border-radius: 4%;
+}
+
+.sebastian {
+  width: 10rem;
+  background-color: white;
+  border-radius: 4%;
+}
+
+.personajesTitulo {
+  color: rgb(3, 3, 3);
+  align-items: center;
+  margin-top: 10%;
+}
+
+.card-title {
+  color: rgb(0, 0, 0);
+  margin-left: 90%;
+}
+
+.cards {
+  width: 17rem;
+}
+
+.card2 {
+  width: 12rem;
+  background-color: #CDD45D;
+  border-radius: 4%;
+}
+
+.card3 {
+  width: 12rem;
+  background-color: #CDD45D;
+  border-radius: 4%;
+}
+
+.card4 {
+  width: 12rem;
+  background-color: #CDD45D;
+  border-radius: 4%;
+}
+
+footer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+}
+
+#creadores {
+  margin-top: 5%;
+}
+
+@font-face {
+  font-family: American Captain;
+  src: url(./Multimedia/American\ Captain.ttf);
+}
